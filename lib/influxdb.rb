@@ -4,6 +4,7 @@ require 'eventmachine'
 require 'json'
 
 module Sensu::Extension
+
   class InfluxDB < Handler
     def name
       definition[:name]
