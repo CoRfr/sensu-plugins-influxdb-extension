@@ -114,13 +114,14 @@ module Sensu::Extension
 
         # default values
         # n, u, ms, s, m, and h (default community plugins use standard epoch date)
+        event[:check] ||= nil
         event[:check][:time_precision] ||= nil
         event[:check][:influxdb] ||= {}
         event[:check][:influxdb][:tags] ||= {}
         event[:check][:influxdb][:database] ||= nil
 
       rescue => e
-        logger.error("Failed to parse event data: #{e}")
+        logger.error("Failed to parse event data: #{e} #{event}")
       end
       return event
     end
