@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Sensu extension to push data to InfluxDB"
   spec.description   = ""
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/CoRfr/sensu-plugins-influxdb-extension/"
   spec.license       = "MIT"
 
   spec.files         = Dir.glob('{bin,lib}/**/*') + %w(LICENSE README.md)
