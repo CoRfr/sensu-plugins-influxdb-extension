@@ -3,16 +3,17 @@ PATH
   specs:
     sensu-plugins-influxdb-extension (0.1.0)
       em-http-request (~> 1.1)
+      multi_json (~> 1.0)
       sensu-em (~> 2.4)
       sensu-extension (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     cookiejar (0.3.3)
-    em-http-request (1.1.5)
+    em-http-request (1.1.7)
       addressable (>= 2.3.4)
       cookiejar (!= 0.3.1)
       em-socksify (>= 0.3)
@@ -20,9 +21,10 @@ GEM
       http_parser.rb (>= 0.6.0)
     em-socksify (0.3.2)
       eventmachine (>= 1.0.0.beta.4)
-    eventmachine (1.2.5)
+    eventmachine (1.2.7)
     http_parser.rb (0.6.0)
-    public_suffix (3.0.2)
+    multi_json (1.15.0)
+    public_suffix (4.0.6)
     rake (10.5.0)
     sensu-em (2.5.2)
     sensu-extension (1.5.2)
