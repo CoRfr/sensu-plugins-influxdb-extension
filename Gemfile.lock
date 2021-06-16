@@ -25,7 +25,7 @@ GEM
     http_parser.rb (0.6.0)
     multi_json (1.15.0)
     public_suffix (4.0.6)
-    rake (10.5.0)
+    rake (13.0.3)
     sensu-em (2.5.2)
     sensu-extension (1.5.2)
       eventmachine
@@ -35,5 +35,5 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.8)
-  rake (~> 10.0)
+  rake (~> 13.0)
   sensu-plugins-influxdb-extension!
